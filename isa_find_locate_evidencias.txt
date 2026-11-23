@@ -1,0 +1,249 @@
+ETAPA 1 — ESTRUTURA
+$ echo /home/codespace/isa_busca_011; find /home/codespace/isa_busca_011
+/home/codespace/isa_busca_011
+/home/codespace/isa_busca_011
+/home/codespace/isa_busca_011/documentos
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/scripts
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+/home/codespace/isa_busca_011/logs
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/identificacao.txt
+/home/codespace/isa_busca_011/imagens
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/banner.jpg
+/home/codespace/isa_busca_011/imagens/logo.png
+/home/codespace/isa_busca_011/backup
+
+
+ETAPA 2 — NOME
+$ find /home/codespace/isa_busca_011 -name manual.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+
+$ find /home/codespace/isa_busca_011 -name 'relatorio*'
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+
+$ find /home/codespace/isa_busca_011 -name '*.txt'
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/identificacao.txt
+
+$ find /home/codespace/isa_busca_011 -iname '*.txt'
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/identificacao.txt
+
+
+ETAPA 3 — TIPO
+$ find /home/codespace/isa_busca_011 -type d
+/home/codespace/isa_busca_011
+/home/codespace/isa_busca_011/documentos
+/home/codespace/isa_busca_011/scripts
+/home/codespace/isa_busca_011/logs
+/home/codespace/isa_busca_011/imagens
+/home/codespace/isa_busca_011/backup
+
+$ find /home/codespace/isa_busca_011 -type f
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/identificacao.txt
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/banner.jpg
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ find /home/codespace/isa_busca_011/scripts -type f
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+
+
+ETAPA 4 — EXTENSÃO
+$ find /home/codespace/isa_busca_011 -type f -name '*.log'
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+
+$ find /home/codespace/isa_busca_011 -type f -name '*.png'
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ find /home/codespace/isa_busca_011 -type f -name '*.sh'
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+
+
+ETAPA 5 — TAMANHO
+$ find /home/codespace/isa_busca_011 -type f -size +500k
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+
+$ find /home/codespace/isa_busca_011 -type f -size -1M
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ find /home/codespace/isa_busca_011 -type f -size 2M
+/home/codespace/isa_busca_011/logs/sistema.log
+
+
+ETAPA 6 — DATA
+$ find /home/codespace/isa_busca_011 -type f -mtime -3
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/identificacao.txt
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/banner.jpg
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ find /home/codespace/isa_busca_011 -type f -mtime +5
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+
+$ find /home/codespace/isa_busca_011 -type f -mtime 2
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+
+
+ETAPA 7 — PERMISSÃO
+$ find /home/codespace/isa_busca_011 -type f -perm 600
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+
+$ find /home/codespace/isa_busca_011 -type f -perm 640
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+
+$ find /home/codespace/isa_busca_011 -type f -perm 644
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/identificacao.txt
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/banner.jpg
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ find /home/codespace/isa_busca_011 -type f -perm 444
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+
+$ ls -l /home/codespace/isa_busca_011/documentos
+total 0
+-rw-r--r-- 1 codespace codespace 0 Nov 23 18:24 Resumo.TXT
+-r--r--r-- 1 codespace codespace 0 Nov 23 18:24 contrato.pdf
+-rw-r--r-- 1 codespace codespace 0 Nov 23 18:24 manual.txt
+-rw------- 1 codespace codespace 0 Nov 16 18:24 relatorio1.txt
+-rw-r----- 1 codespace codespace 0 Nov 21 18:24 relatorio2.txt
+
+
+ETAPA 8 — PROPRIETÁRIO
+$ whoami
+codespace
+
+$ find /home/codespace/isa_busca_011 -type f -user "$USER"
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio1.txt
+/home/codespace/isa_busca_011/documentos/contrato.pdf
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+/home/codespace/isa_busca_011/logs/erro.log
+/home/codespace/isa_busca_011/identificacao.txt
+/home/codespace/isa_busca_011/imagens/icone.svg
+/home/codespace/isa_busca_011/imagens/banner.jpg
+/home/codespace/isa_busca_011/imagens/logo.png
+
+$ ls -l /home/codespace/isa_busca_011/documentos
+total 0
+-rw-r--r-- 1 codespace codespace 0 Nov 23 18:24 Resumo.TXT
+-r--r--r-- 1 codespace codespace 0 Nov 23 18:24 contrato.pdf
+-rw-r--r-- 1 codespace codespace 0 Nov 23 18:24 manual.txt
+-rw------- 1 codespace codespace 0 Nov 16 18:24 relatorio1.txt
+-rw-r----- 1 codespace codespace 0 Nov 21 18:24 relatorio2.txt
+
+
+ETAPA 9 — FILTROS COMBINADOS
+$ find /home/codespace/isa_busca_011 -type f -name '*.log' -size +500k
+/home/codespace/isa_busca_011/logs/acesso.log
+/home/codespace/isa_busca_011/logs/sistema.log
+
+$ find /home/codespace/isa_busca_011/documentos -type f -iname '*.txt' -mtime -3
+/home/codespace/isa_busca_011/documentos/Resumo.TXT
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+/home/codespace/isa_busca_011/documentos/manual.txt
+
+$ find /home/codespace/isa_busca_011/documentos -type f -iname '*.txt' -perm 640
+/home/codespace/isa_busca_011/documentos/relatorio2.txt
+
+$ find /home/codespace/isa_busca_011/scripts -type f -name '*.sh' -perm /111
+/home/codespace/isa_busca_011/scripts/backup.sh
+/home/codespace/isa_busca_011/scripts/relatorio.sh
+
+
+ETAPA 10 — -EXEC
+$ ls -la /home/codespace/isa_busca_011/backup
+total 8
+drwxr-xr-x 2 codespace codespace 4096 Nov 23 18:24 .
+drwxr-xr-x 7 codespace codespace 4096 Nov 23 18:24 ..
+-rw------- 1 codespace codespace    0 Nov 23 18:24 Resumo.TXT
+-rw------- 1 codespace codespace    0 Nov 23 18:24 manual.txt
+-rw------- 1 codespace codespace    0 Nov 23 18:24 relatorio1.txt
+-rw------- 1 codespace codespace    0 Nov 23 18:24 relatorio2.txt
+
+$ ls -l /home/codespace/isa_busca_011/backup
+total 0
+-rw------- 1 codespace codespace 0 Nov 23 18:24 Resumo.TXT
+-rw------- 1 codespace codespace 0 Nov 23 18:24 manual.txt
+-rw------- 1 codespace codespace 0 Nov 23 18:24 relatorio1.txt
+-rw------- 1 codespace codespace 0 Nov 23 18:24 relatorio2.txt
+
+
+ETAPA 11 — LOCATE
+$ locate isa_busca_011
+/bin/sh: 1: locate: not found
+
+$ locate relatorio2.txt
+/bin/sh: 1: locate: not found
+
+
+$ find /home/codespace/isa_busca_011 -name arquivo_recem_criado.txt
+/home/codespace/isa_busca_011/documentos/arquivo_recem_criado.txt
+
+
+ETAPA 12 — DESAFIO FINAL
+find /home/codespace/isa_busca_011/documentos -type f -name '*.txt'
+find /home/codespace/isa_busca_011 -type f -name '*.log' -size +1M
+find /home/codespace/isa_busca_011 -type f -mtime -3
+find /home/codespace/isa_busca_011 -type f -perm 640
+find /home/codespace/isa_busca_011/scripts -type f -name '*.sh' -perm /111
+find /home/codespace/isa_busca_011 -type f -name '*.log' -exec cp {} /home/codespace/isa_busca_011/backup/ \;
+ls -l /home/codespace/isa_busca_011/backup

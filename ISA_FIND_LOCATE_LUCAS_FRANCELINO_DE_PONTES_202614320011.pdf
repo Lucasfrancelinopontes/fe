@@ -1,0 +1,273 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3940 >>
+stream
+BT
+/F1 8 Tf
+40 760 Td
+10 TL
+(INTRODUÇÃO A SISTEMAS ABERTOS) Tj T*
+(LABORATÓRIO FIND E LOCATE ? RELATÓRIO) Tj T*
+() Tj T*
+(Nome: Lucas Francelino de Pontes) Tj T*
+(Matrícula: 202614320011) Tj T*
+(Diretório utilizado: /home/codespace/isa_busca_011) Tj T*
+() Tj T*
+(EVIDÊNCIAS DE EXECUÇÃO) Tj T*
+(Os blocos abaixo registram o comando \($\) e sua saída, funcionando como capturas textuais do) Tj T*
+(terminal.) Tj T*
+() Tj T*
+(ETAPA 1 ? ESTRUTURA) Tj T*
+($ echo /home/codespace/isa_busca_011; find /home/codespace/isa_busca_011) Tj T*
+(/home/codespace/isa_busca_011 /home/codespace/isa_busca_011 /home/codespace/isa_busca_011/documentos) Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/scripts) Tj T*
+(/home/codespace/isa_busca_011/scripts/backup.sh /home/codespace/isa_busca_011/scripts/relatorio.sh) Tj T*
+(/home/codespace/isa_busca_011/logs /home/codespace/isa_busca_011/logs/acesso.log) Tj T*
+(/home/codespace/isa_busca_011/logs/sistema.log /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+(/home/codespace/isa_busca_011/identificacao.txt /home/codespace/isa_busca_011/imagens) Tj T*
+(/home/codespace/isa_busca_011/imagens/icone.svg /home/codespace/isa_busca_011/imagens/banner.jpg) Tj T*
+(/home/codespace/isa_busca_011/imagens/logo.png /home/codespace/isa_busca_011/backup) Tj T*
+() Tj T*
+(ETAPA 2 ? NOME) Tj T*
+($ find /home/codespace/isa_busca_011 -name manual.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt  $ find /home/codespace/isa_busca_011 -name) Tj T*
+('relatorio*' /home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh  $ find /home/codespace/isa_busca_011 -name) Tj T*
+('*.txt' /home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/identificacao.txt) Tj T*
+($ find /home/codespace/isa_busca_011 -iname '*.txt') Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/identificacao.txt) Tj T*
+() Tj T*
+(ETAPA 3 ? TIPO) Tj T*
+($ find /home/codespace/isa_busca_011 -type d /home/codespace/isa_busca_011) Tj T*
+(/home/codespace/isa_busca_011/documentos /home/codespace/isa_busca_011/scripts) Tj T*
+(/home/codespace/isa_busca_011/logs /home/codespace/isa_busca_011/imagens) Tj T*
+(/home/codespace/isa_busca_011/backup  $ find /home/codespace/isa_busca_011 -type f) Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/scripts/backup.sh) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh /home/codespace/isa_busca_011/logs/acesso.log) Tj T*
+(/home/codespace/isa_busca_011/logs/sistema.log /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+(/home/codespace/isa_busca_011/identificacao.txt /home/codespace/isa_busca_011/imagens/icone.svg) Tj T*
+(/home/codespace/isa_busca_011/imagens/banner.jpg /home/codespace/isa_busca_011/imagens/logo.png  $) Tj T*
+(find /home/codespace/isa_busca_011/scripts -type f /home/codespace/isa_busca_011/scripts/backup.sh) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4461 >>
+stream
+BT
+/F1 8 Tf
+40 760 Td
+10 TL
+(ETAPA 4 ? EXTENSÃO) Tj T*
+($ find /home/codespace/isa_busca_011 -type f -name '*.log') Tj T*
+(/home/codespace/isa_busca_011/logs/acesso.log /home/codespace/isa_busca_011/logs/sistema.log) Tj T*
+(/home/codespace/isa_busca_011/logs/erro.log  $ find /home/codespace/isa_busca_011 -type f -name) Tj T*
+('*.png' /home/codespace/isa_busca_011/imagens/logo.png  $ find /home/codespace/isa_busca_011 -type f) Tj T*
+(-name '*.sh' /home/codespace/isa_busca_011/scripts/backup.sh) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh) Tj T*
+() Tj T*
+(ETAPA 5 ? TAMANHO) Tj T*
+($ find /home/codespace/isa_busca_011 -type f -size +500k) Tj T*
+(/home/codespace/isa_busca_011/logs/acesso.log /home/codespace/isa_busca_011/logs/sistema.log  $ find) Tj T*
+(/home/codespace/isa_busca_011 -type f -size -1M /home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+(/home/codespace/isa_busca_011/imagens/icone.svg /home/codespace/isa_busca_011/imagens/logo.png  $) Tj T*
+(find /home/codespace/isa_busca_011 -type f -size 2M /home/codespace/isa_busca_011/logs/sistema.log) Tj T*
+() Tj T*
+(ETAPA 6 ? DATA) Tj T*
+($ find /home/codespace/isa_busca_011 -type f -mtime -3) Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/scripts/backup.sh) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh /home/codespace/isa_busca_011/logs/acesso.log) Tj T*
+(/home/codespace/isa_busca_011/logs/sistema.log /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+(/home/codespace/isa_busca_011/identificacao.txt /home/codespace/isa_busca_011/imagens/icone.svg) Tj T*
+(/home/codespace/isa_busca_011/imagens/banner.jpg /home/codespace/isa_busca_011/imagens/logo.png  $) Tj T*
+(find /home/codespace/isa_busca_011 -type f -mtime +5) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt  $ find /home/codespace/isa_busca_011 -type) Tj T*
+(f -mtime 2 /home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+() Tj T*
+(ETAPA 7 ? PERMISSÃO) Tj T*
+($ find /home/codespace/isa_busca_011 -type f -perm 600) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt  $ find /home/codespace/isa_busca_011 -type) Tj T*
+(f -perm 640 /home/codespace/isa_busca_011/documentos/relatorio2.txt  $ find) Tj T*
+(/home/codespace/isa_busca_011 -type f -perm 644 /home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/logs/acesso.log) Tj T*
+(/home/codespace/isa_busca_011/logs/sistema.log /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+(/home/codespace/isa_busca_011/identificacao.txt /home/codespace/isa_busca_011/imagens/icone.svg) Tj T*
+(/home/codespace/isa_busca_011/imagens/banner.jpg /home/codespace/isa_busca_011/imagens/logo.png  $) Tj T*
+(find /home/codespace/isa_busca_011 -type f -perm 444) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf  $ ls -l) Tj T*
+(/home/codespace/isa_busca_011/documentos total 0 -rw-r--r-- 1 codespace codespace 0 Nov 23 18:24) Tj T*
+(Resumo.TXT -r--r--r-- 1 codespace codespace 0 Nov 23 18:24 contrato.pdf -rw-r--r-- 1 codespace) Tj T*
+(codespace 0 Nov 23 18:24 manual.txt -rw------- 1 codespace codespace 0 Nov 16 18:24 relatorio1.txt) Tj T*
+(-rw-r----- 1 codespace codespace 0 Nov 21 18:24 relatorio2.txt) Tj T*
+() Tj T*
+(ETAPA 8 ? PROPRIETÁRIO) Tj T*
+($ whoami codespace  $ find /home/codespace/isa_busca_011 -type f -user "$USER") Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio1.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/contrato.pdf) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt /home/codespace/isa_busca_011/scripts/backup.sh) Tj T*
+(/home/codespace/isa_busca_011/scripts/relatorio.sh /home/codespace/isa_busca_011/logs/acesso.log) Tj T*
+(/home/codespace/isa_busca_011/logs/sistema.log /home/codespace/isa_busca_011/logs/erro.log) Tj T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4928 >>
+stream
+BT
+/F1 8 Tf
+40 760 Td
+10 TL
+(/home/codespace/isa_busca_011/identificacao.txt /home/codespace/isa_busca_011/imagens/icone.svg) Tj T*
+(/home/codespace/isa_busca_011/imagens/banner.jpg /home/codespace/isa_busca_011/imagens/logo.png  $) Tj T*
+(ls -l /home/codespace/isa_busca_011/documentos total 0 -rw-r--r-- 1 codespace codespace 0 Nov 23) Tj T*
+(18:24 Resumo.TXT -r--r--r-- 1 codespace codespace 0 Nov 23 18:24 contrato.pdf -rw-r--r-- 1 codespace) Tj T*
+(codespace 0 Nov 23 18:24 manual.txt -rw------- 1 codespace codespace 0 Nov 16 18:24 relatorio1.txt) Tj T*
+(-rw-r----- 1 codespace codespace 0 Nov 21 18:24 relatorio2.txt) Tj T*
+() Tj T*
+(ETAPA 9 ? FILTROS COMBINADOS) Tj T*
+($ find /home/codespace/isa_busca_011 -type f -name '*.log' -size +500k) Tj T*
+(/home/codespace/isa_busca_011/logs/acesso.log /home/codespace/isa_busca_011/logs/sistema.log  $ find) Tj T*
+(/home/codespace/isa_busca_011/documentos -type f -iname '*.txt' -mtime -3) Tj T*
+(/home/codespace/isa_busca_011/documentos/Resumo.TXT) Tj T*
+(/home/codespace/isa_busca_011/documentos/relatorio2.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/manual.txt  $ find /home/codespace/isa_busca_011/documentos) Tj T*
+(-type f -iname '*.txt' -perm 640 /home/codespace/isa_busca_011/documentos/relatorio2.txt  $ find) Tj T*
+(/home/codespace/isa_busca_011/scripts -type f -name '*.sh' -perm /111) Tj T*
+(/home/codespace/isa_busca_011/scripts/backup.sh /home/codespace/isa_busca_011/scripts/relatorio.sh) Tj T*
+() Tj T*
+(ETAPA 10 ? -EXEC) Tj T*
+($ ls -la /home/codespace/isa_busca_011/backup total 8 drwxr-xr-x 2 codespace codespace 4096 Nov 23) Tj T*
+(18:24 . drwxr-xr-x 7 codespace codespace 4096 Nov 23 18:24 .. -rw------- 1 codespace codespace    0) Tj T*
+(Nov 23 18:24 Resumo.TXT -rw------- 1 codespace codespace    0 Nov 23 18:24 manual.txt -rw------- 1) Tj T*
+(codespace codespace    0 Nov 23 18:24 relatorio1.txt -rw------- 1 codespace codespace    0 Nov 23) Tj T*
+(18:24 relatorio2.txt  $ ls -l /home/codespace/isa_busca_011/backup total 0 -rw------- 1 codespace) Tj T*
+(codespace 0 Nov 23 18:24 Resumo.TXT -rw------- 1 codespace codespace 0 Nov 23 18:24 manual.txt) Tj T*
+(-rw------- 1 codespace codespace 0 Nov 23 18:24 relatorio1.txt -rw------- 1 codespace codespace 0) Tj T*
+(Nov 23 18:24 relatorio2.txt) Tj T*
+() Tj T*
+(ETAPA 11 ? LOCATE) Tj T*
+($ locate isa_busca_011 /bin/sh: 1: locate: not found  $ locate relatorio2.txt /bin/sh: 1: locate:) Tj T*
+(not found   $ find /home/codespace/isa_busca_011 -name arquivo_recem_criado.txt) Tj T*
+(/home/codespace/isa_busca_011/documentos/arquivo_recem_criado.txt) Tj T*
+() Tj T*
+(ETAPA 12 ? DESAFIO FINAL) Tj T*
+(find /home/codespace/isa_busca_011/documentos -type f -name '*.txt' find) Tj T*
+(/home/codespace/isa_busca_011 -type f -name '*.log' -size +1M find /home/codespace/isa_busca_011) Tj T*
+(-type f -mtime -3 find /home/codespace/isa_busca_011 -type f -perm 640 find) Tj T*
+(/home/codespace/isa_busca_011/scripts -type f -name '*.sh' -perm /111 find) Tj T*
+(/home/codespace/isa_busca_011 -type f -name '*.log' -exec cp {}) Tj T*
+(/home/codespace/isa_busca_011/backup/ \\; ls -l /home/codespace/isa_busca_011/backup) Tj T*
+() Tj T*
+( RESPOSTAS DAS 46 QUESTÕES 1. -iname também encontrou documentos/Resumo.TXT; -name diferencia) Tj T*
+(maiúsculas de minúsculas, enquanto -iname ignora essa diferença. 2. As aspas impedem que o shell) Tj T*
+(expanda *.txt antes de o find receber o padrão. 3. Em -type d, d significa directory \(diretório\); em) Tj T*
+(-type f, f significa regular file \(arquivo regular\). 4. Para links simbólicos, usa-se -type l. 5.) Tj T*
+(-type f restringe a arquivos regulares; * representa qualquer sequência de caracteres, inclusive) Tj T*
+(vazia. 6. Acima de 500 KB: logs/sistema.log e logs/acesso.log. + significa maior que; - significa) Tj T*
+(menor que. k indica kibibytes no find e M indica mebibytes. 7. -mtime +5 encontrou) Tj T*
+(documentos/relatorio1.txt. -mtime -3 indica menos de três períodos de 24 horas; -mtime +5 indica) Tj T*
+(mais de cinco, enquanto -mtime 5 indica aproximadamente cinco períodos completos. 8. A permissão 600) Tj T*
+(é de documentos/relatorio1.txt. O proprietário pode ler e escrever, mas não executar. A permissão) Tj T*
+(444 permite leitura para proprietário, grupo e outros. 640 não aparece com -perm 644 porque a) Tj T*
+(comparação é exata. 9. $USER armazena o nome do usuário atual. -user filtra pelo proprietário) Tj T*
+(informado. Para grupo, usa-se -group. 10. A busca dos logs usa três condições explícitas: -type f,) Tj T*
+(-name e -size. Sim, as condições encadeadas devem ser verdadeiras. Os scripts executáveis são) Tj T*
+(backup.sh e relatorio.sh. 11. {} é substituído pelo caminho de cada arquivo encontrado. O ponto e) Tj T*
+(vírgula encerra a expressão -exec e precisa ser protegido do shell. Foram copiados quatro arquivos) Tj T*
+(TXT; após chmod, todos ficaram com permissão 600. 12. O arquivo recém-criado não aparece) Tj T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 11 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 1875 >>
+stream
+BT
+/F1 8 Tf
+40 760 Td
+10 TL
+(imediatamente no locate quando o índice está desatualizado; aparece no find imediatamente. Depois de) Tj T*
+(updatedb, passa a aparecer no locate. find busca em tempo real; locate consulta banco previamente) Tj T*
+(criado. locate pode ficar desatualizado entre duas atualizações do índice. 13. Desafio: os comandos) Tj T*
+(estão registrados na Etapa 12. A cópia final usa find ... -name '*.log' -exec cp {} "$LAB/backup/") Tj T*
+(\\;. 14. find percorre o sistema em tempo real e locate consulta um índice. Eu escolheria find para) Tj T*
+(dados recém-criados, filtros precisos e confirmação atual; escolheria locate para buscas rápidas) Tj T*
+(quando o índice for confiável. Vantagem do find: atualidade e flexibilidade; limitação: pode ser) Tj T*
+(mais lento. Vantagem do locate: velocidade; limitação: resultados podem estar desatualizados e) Tj T*
+(dependem do índice. 15. find / -type f -exec rm {} \\; é perigoso porque começa na raiz e pode) Tj T*
+(remover todos os arquivos regulares acessíveis, causando perda irreversível de dados. Deve-se) Tj T*
+(revisar o caminho, testar primeiro sem rm e pedir confirmação antes de qualquer remoção.  CONCLUSÃO) Tj T*
+(Aprendi a criar uma estrutura de laboratório e a combinar filtros do find. As buscas por nome) Tj T*
+(mostram a diferença entre -name e -iname. Os filtros de tipo, tamanho, data, permissão e) Tj T*
+(proprietário tornam a busca precisa. Também pratiquei ações com -exec, entendendo o papel de {} e do) Tj T*
+(ponto e vírgula. O find consulta o estado atual do sistema, enquanto locate depende de um índice.) Tj T*
+(Por isso, locate é rápido, mas pode não mostrar arquivos recém-criados. A atividade também reforçou) Tj T*
+(que comandos destrutivos devem ser testados com cuidado. Os resultados e comandos foram registrados) Tj T*
+(neste relatório para permitir conferência.) Tj T*
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000133 00000 n 
+0000000260 00000 n 
+0000004252 00000 n 
+0000004379 00000 n 
+0000008892 00000 n 
+0000009019 00000 n 
+0000013999 00000 n 
+0000014127 00000 n 
+0000016055 00000 n 
+trailer
+<< /Size 12 /Root 1 0 R >>
+startxref
+16124
+%%EOF
